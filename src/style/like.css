@@ -1,0 +1,39 @@
+.like{
+    margin-bottom: 101px;
+}
+.like_wrapper{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+
+}
+.like h1{
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 55px;
+line-height: 148%;
+text-align: center;
+color: #000;
+margin-bottom: 30px;
+}
+.e{
+    width: 100%;
+    
+}
+@media (max-width:700px) {
+.like_con3{
+    
+    display: none;
+}
+.like h1{
+    font-size: 40px;
+}
+}
+@media (max-width:500px) {
+    .like_con2{
+        display: none;
+    }
+    .like h1{
+    font-size: 30px;
+
+    }
+}

@@ -1,0 +1,57 @@
+.hero2_card img:nth-of-type(){
+margin-bottom: 58px;
+margin-top: 67px;
+}
+.xon span:nth-of-type(1){
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    margin-bottom: 9px;
+display: block;
+}
+.xon span:nth-of-type(2){
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 170%;
+text-align: center;
+color: #000;
+margin-top: 9px;
+display: block;
+}
+.hero2_card a{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: center;
+color: #000;
+margin-top: 8px;
+margin-bottom: 21px;
+display: block;
+}
+
+.xon img{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+}
+@media(max-width:1100px) {
+    
+    .hero2_card a{
+        font-size: 11px;
+    }
+    .xon span:nth-of-type(2){
+        font-size: 11px;
+    }
+    .xon span:nth-of-type(1){
+        font-size: 9px;
+    }
+}
